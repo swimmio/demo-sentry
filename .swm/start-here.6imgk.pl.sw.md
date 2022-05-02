@@ -2,13 +2,17 @@
 id: 6imgk
 name: Start Here
 file_version: 1.0.2
-app_version: 0.8.2-0
+app_version: 0.8.3-0
 ---
 
 <!-- Intro - Do not remove this comment -->
 Welcome to our documentation of Sentry! This playlist will get you ready to contribute to this codebase 💪🏻
 
-Note, this is not Sentry's official documentation, and serves as an example for using [Swimm](https://swimm.io).
+This repository is used to demonstrate using [Swimm](https://swimm.io). Its starting point is a clone of [sentry](https://github.com/getsentry/sentry).
+
+The documentation provided in `.swm` folder is made available by Swimm, and is not official Sentry documentation. Swimm makes available this documentation for the purposes of evaluating the Swimm solution, and not for production purposes. Swimm makes no warranties regarding the documentation, including regarding the accuracy or completeness thereof.
+
+Some of the documentation provided here relies on [sentry's documentation](https://github.com/getsentry/develop).
 
 <br/>
 
@@ -16,7 +20,7 @@ Note, this is not Sentry's official documentation, and serves as an example for 
 1. [Setting up your environment](setting-up-your-environment.ncu19.sw.md)
 2. [Python Dependencies](python-dependencies.opzh6.sw.md)
 3. [How we test](how-we-test.91kw1.pl.sw.md)
-4. [Ananlytics](ananlytics.2acnz.sw.md)
+4. [Using Datadog and Metrics](using-datadog-and-metrics.12f0c.sw.md)
 5. [Feature Flags](feature-flags.pkqwi.pl.sw.md)
 
 
