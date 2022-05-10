@@ -2,7 +2,7 @@
 id: 6imgk
 name: Start Here
 file_version: 1.0.2
-app_version: 0.8.3-0
+app_version: 0.8.4-0
 ---
 
 <!-- Intro - Do not remove this comment -->
@@ -19,9 +19,10 @@ Some of the documentation provided here relies on [sentry's documentation](https
 <!-- Steps - Do not remove this comment -->
 1. [Setting up your environment](setting-up-your-environment.ncu19.sw.md)
 2. [Python Dependencies](python-dependencies.opzh6.sw.md)
-3. [How we test](how-we-test.91kw1.pl.sw.md)
-4. [Using Datadog and Metrics](using-datadog-and-metrics.12f0c.sw.md)
-5. [Feature Flags](feature-flags.pkqwi.pl.sw.md)
+3. [The flow of an API call](the-flow-of-an-api-call.d8v18.sw.md)
+4. [How we test](how-we-test.91kw1.pl.sw.md)
+5. [Using Datadog and Metrics](using-datadog-and-metrics.12f0c.sw.md)
+6. [Feature Flags](feature-flags.pkqwi.pl.sw.md)
 
 
 <br/>
