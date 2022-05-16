@@ -54,6 +54,8 @@ We use [Reflux](https://github.com/reflux/refluxjs) for managing our global stat
 *   `📄 static/app/actionCreators` - action creator functions are used to dispatch actions. For example, `📄 static/app/actionCreators/group.tsx`. Reflux stores listen to actions and update themselves accordingly.
     
 
+To learn more about our use of Reflux, refer to [State Management with Reflux](state-management-with-reflux.jni2e.sw.md) .
+
 # Important Files
 
 ## `📄 static/app/main.tsx`
