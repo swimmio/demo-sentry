@@ -7,25 +7,25 @@ file_blobs:
   static/app/sentryTypes.tsx: 0fe070ac5d22d1d33a58de460c6c56b3b9841abf
 ---
 
-The frontend codebase is under `📄 static/app` . There are additional folders related to the frontend in additional locations, as described below.
+The frontend codebase is under `📄 static/app` . Our framework is React. There are additional folders related to the frontend in additional locations, as described below.
 
 The main folders to know are:
 
 # Components
 
-We use a component for UI that is designed to be highly reusable.
+We use components for UI that are designed to be highly reusable.
 
 ## `📄 static/app/components`
 
-Components are located under this folder.
+Components are located under this folder - for example `📄 static/app/components/idBadge` .
 
-Having an `index` file in a folder provides a way to implicitly import the main file without specifying it.
+Placing an `index` file in a component folder provides a way to implicitly import the main file without specifying it.
 
 If the folder is created to group components that are used together, and there is an entrypoint component, that uses the components within the grouping - the entrypoint component should be the index file. For example, see `📄 static/app/components/idBadge/index.tsx`
 
 ## `📄 docs-ui/stories/components`
 
-Note that every component should have a corresponding `.stories.js` file that documents how it should be used. For example, `📄 static/app/components/idBadge` has the file `📄 docs-ui/stories/components/idBadge.stories.js`
+Note that every component should have a corresponding `.stories.js` file that documents how it should be used. For example, `📄 static/app/components/idBadge` has the corresponding file `📄 docs-ui/stories/components/idBadge.stories.js`
 
 ## `📄 tests/js/spec/components`
 
@@ -33,7 +33,7 @@ Tests for components. E.g., `📄 tests/js/spec/components/idBadge`
 
 # Views
 
-We use a view for UI that will typically not be reused in other parts of the codebase.
+We use views for UI that will typically not be reused in other parts of the codebase.
 
 ## `📄 static/app/views`
 
