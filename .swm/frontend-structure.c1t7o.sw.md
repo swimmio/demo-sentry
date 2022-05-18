@@ -7,7 +7,7 @@ file_blobs:
   static/app/sentryTypes.tsx: 0fe070ac5d22d1d33a58de460c6c56b3b9841abf
 ---
 
-The frontend codebase is under `📄 static/app` . Our framework is React. There are additional folders related to the frontend in additional locations, as described below.
+The frontend codebase is under `📄 static/app` . Our framework is [ReactJS](https://reactjs.org/). There are additional folders related to the frontend in additional locations, as described below.
 
 The main folders to know are:
 
@@ -60,7 +60,7 @@ To learn more about our use of Reflux, refer to [State Management with Reflux](s
 
 ## `📄 static/app/main.tsx`
 
-This is the web app, it is intended to be available online.
+This is the web app's entry point.
 
 ## `📄 static/app/sentryTypes.tsx`
 
