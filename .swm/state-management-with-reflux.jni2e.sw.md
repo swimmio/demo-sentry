@@ -151,7 +151,7 @@ For example:
 
 <br/>
 
-Reflux stores listen to actions and update themselves accordingly.
+For usage, you need to create actions which can be called from React components. Those actions are listened to by stores which hold and update data. In turn those stores are hooked up to React components and set state within them as it is updated within the store.
 
 <br/>
 
