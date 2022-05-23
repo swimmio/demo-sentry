@@ -2,7 +2,7 @@
 id: jni2e
 name: State Management with Reflux
 file_version: 1.0.2
-app_version: 0.8.5-0
+app_version: 0.8.6-0
 file_blobs:
   static/app/actions/pageFiltersActions.tsx: 8d6f2485c157b80586df789ae5c655bf51299ec7
   static/app/stores/pageFiltersStore.tsx: c04a27b5e33fd62b865b58b4bddac1be1b899f3e
@@ -24,11 +24,11 @@ The main function of Reflux is to introduce a more functional programming style 
      +--------------------------------------+
 ```
 
-The pattern is composed of actions and data stores, where actions initiate new data to pass through data stores before coming back to the view components again. If a view component has an event that needs to make a change in the application's data stores, they need to do so by signaling to the stores through the actions available.
+In this pattern, actions initiate the process of data passing through data stores before returning to the view components. A view component's event that requires changes to the application's data stores signals the stores with the available actions.
 
 We will use `PageFilters`[<sup id="1HGoLB">↓</sup>](#f-1HGoLB) for our example.
 
-For usage, you need to create actions which can be called from React components. Those actions are listened to by stores which hold and update data. In turn those stores are hooked up to React components and set state within them as it is updated within the store.
+For usage, you need to create actions that can be called from React components. Those actions are listened to by stores which hold and update data. In turn those stores are hooked up to React components and set state within them as it is updated within the store.
 
 So there are three parts:
 
