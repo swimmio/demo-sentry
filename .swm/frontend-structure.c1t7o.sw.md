@@ -2,7 +2,7 @@
 id: c1t7o
 name: Frontend Structure
 file_version: 1.0.2
-app_version: 0.8.5-0
+app_version: 0.8.6-0
 file_blobs:
   static/app/sentryTypes.tsx: 0fe070ac5d22d1d33a58de460c6c56b3b9841abf
 ---
@@ -13,7 +13,7 @@ The main folders to know are:
 
 # Components
 
-We use components for UI that are designed to be highly reusable.
+We use UI components that are designed to be highly reusable.
 
 ## `📄 static/app/components`
 
