@@ -700,7 +700,7 @@ class ProjectDetailsEndpoint(ProjectEndpoint):
                     clean_newline_inputs(options["filters:blacklisted_ips"]),
                 )
             if f"filters:{FilterTypes.RELEASES}" in options:
-                if features.has("projects:custom-inbound", project, actor=request.user):
+                if features.has("projects:custom-inbound-changed", project, actor=request.user):
                     project.update_option(
                         f"sentry:{FilterTypes.RELEASES}",
                         clean_newline_inputs(options[f"filters:{FilterTypes.RELEASES}"]),
