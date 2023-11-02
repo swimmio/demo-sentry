@@ -4335,10 +4335,10 @@
   resolved "https://registry.yarnpkg.com/@types/parse5/-/parse5-5.0.3.tgz#e7b5aebbac150f8b5fdd4a46e7f0bd8e65e19109"
   integrity sha512-kUNnecmtkunAoQ3CnjmMkzNU/gtxG8guhi+Fk2U/kOpIKjIMKnXGp4IJCgQJrXSgMsWYimYG4TGjz/UzbGEBTw==
 
-"@types/pegjs@^0.10.3":
-  version "0.10.3"
-  resolved "https://registry.yarnpkg.com/@types/pegjs/-/pegjs-0.10.3.tgz#9e254036c6bf2254cd98caec447a1d79b6607bff"
-  integrity sha512-C/ZkUNe7HONOaDHXfNTZOUzrOvOgrWdrJj1JZ3QTEPi5gOIygcjCpXyxpdJTKVvWFzbobajRbMbQY8d0WrZ6fg==
+"@types/pegjs@^0.10.5":
+  version "0.10.5"
+  resolved "https://registry.yarnpkg.com/@types/pegjs/-/pegjs-0.10.5.tgz#4eb3a2d569b7766268ece53bacc588b0ef4c808e"
+  integrity sha512-m014KkwNbuuKKc0ruG+Xd92QYohcqvcvc9E3JRk79hcJEw3LGNZds48M82LAUhHcnXvvRZEObGsSRq4nqbt88A==
 
 "@types/prettier@^2.1.5":
   version "2.2.3"
