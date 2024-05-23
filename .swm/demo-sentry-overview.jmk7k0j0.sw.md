@@ -1,0 +1,303 @@
+---
+title: demo-sentry overview
+---
+- <SwmLink doc-title="Api">[Api](.swm/api.kqwijpkz.sw.md)</SwmLink>
+- <SwmLink doc-title="Getting started">[Getting started](.swm/getting-started.fwtxr70o.sw.md)</SwmLink>
+
+## Modules
+
+### Plugins
+
+- <SwmLink doc-title="Makefile usage in sentry">[Makefile usage in sentry](.swm/makefile-usage-in-sentry.7jqluv1i.sw.md)</SwmLink>
+- <SwmLink doc-title="What is twilio">[What is twilio](.swm/what-is-twilio.ad1l9pez.sw.md)</SwmLink>
+- <SwmLink doc-title="What is bitbucket">[What is bitbucket](.swm/what-is-bitbucket.se761p6u.sw.md)</SwmLink>
+- <SwmLink doc-title="Getting started with opsgenie">[Getting started with opsgenie](.swm/getting-started-with-opsgenie.7hb7djwz.sw.md)</SwmLink>
+- <SwmLink doc-title="Getting started with github">[Getting started with github](.swm/getting-started-with-github.288skmry.sw.md)</SwmLink>
+- <SwmLink doc-title="Getting started with jira">[Getting started with jira](.swm/getting-started-with-jira.5uy6drex.sw.md)</SwmLink>
+- <SwmLink doc-title="Segment 101">[Segment 101](.swm/segment-101.hrzib4ep.sw.md)</SwmLink>
+- <SwmLink doc-title="Overview of heroku">[Overview of heroku](.swm/overview-of-heroku.mpso065d.sw.md)</SwmLink>
+- <SwmLink doc-title="Getting started with gitlab">[Getting started with gitlab](.swm/getting-started-with-gitlab.u7e2x6i8.sw.md)</SwmLink>
+- <SwmLink doc-title="Understanding sessionstack">[Understanding sessionstack](.swm/understanding-sessionstack.fvdlezv8.sw.md)</SwmLink>
+
+### static
+
+- **Application Logic**
+  - **Views**
+    - <SwmLink doc-title="Overview of admin">[Overview of admin](.swm/overview-of-admin.b2dxa816.sw.md)</SwmLink>
+    - <SwmLink doc-title="What is auth">[What is auth](.swm/what-is-auth.9bgu6gib.sw.md)</SwmLink>
+    - <SwmLink doc-title="Introduction to organization stats">[Introduction to organization stats](.swm/introduction-to-organization-stats.f4dz53c5.sw.md)</SwmLink>
+    - <SwmLink doc-title="Getting started with issue list">[Getting started with issue list](.swm/getting-started-with-issue-list.oo5q1mn0.sw.md)</SwmLink>
+    - <SwmLink doc-title="Understanding monitors">[Understanding monitors](.swm/understanding-monitors.6s4ktx2a.sw.md)</SwmLink>
+    - **Views**
+      - <SwmLink doc-title="Dashboard management process">[Dashboard management process](.swm/dashboard-management-process.kyshudp0.sw.md)</SwmLink>
+      - <SwmLink doc-title="Generating a performance event view">[Generating a performance event view](.swm/generating-a-performance-event-view.7tu8x81v.sw.md)</SwmLink>
+    - **Performance**
+      - <SwmLink doc-title="Generating a performance event view in sentry">[Generating a performance event view in sentry](.swm/generating-a-performance-event-view-in-sentry.a90scj2k.sw.md)</SwmLink>
+      - <SwmLink doc-title="Handling landing display changes">[Handling landing display changes](.swm/handling-landing-display-changes.djrog42a.sw.md)</SwmLink>
+      - <SwmLink doc-title="Handling changed transactions">[Handling changed transactions](.swm/handling-changed-transactions.6hunfxz8.sw.md)</SwmLink>
+    - **Dashboards V2**
+      - <SwmLink doc-title="Dashboard management process">[Dashboard management process](.swm/dashboard-management-process.0o8xoti1.sw.md)</SwmLink>
+  - **Data**
+  - **Actions**
+  - **Components**
+    - <SwmLink doc-title="Issues 101">[Issues 101](.swm/issues-101.0ongcueu.sw.md)</SwmLink>
+    - <SwmLink doc-title="Overview of issue difference">[Overview of issue difference](.swm/overview-of-issue-difference.v5zjulwz.sw.md)</SwmLink>
+    - <SwmLink doc-title="Deprecated forms 101">[Deprecated forms 101](.swm/deprecated-forms-101.8w3y5j8e.sw.md)</SwmLink>
+    - <SwmLink doc-title="Getting started with charts">[Getting started with charts](.swm/getting-started-with-charts.0eas77wr.sw.md)</SwmLink>
+    - <SwmLink doc-title="Forms 101">[Forms 101](.swm/forms-101.wz8ud2t4.sw.md)</SwmLink>
+    - <SwmLink doc-title="Tooltip generation in charts">[Tooltip generation in charts](.swm/tooltip-generation-in-charts.j25x7sgt.sw.md)</SwmLink>
+    - **Organizations**
+      - <SwmLink doc-title="Page filter parameters parsing and normalization">[Page filter parameters parsing and normalization](.swm/page-filter-parameters-parsing-and-normalization.a602usky.sw.md)</SwmLink>
+      - <SwmLink doc-title="Page filters process">[Page filters process](.swm/page-filters-process.kqma63sj.sw.md)</SwmLink>
+    - **Profiling**
+      - <SwmLink doc-title="Overview of the profiling components main functionalities">[Overview of the profiling components main functionalities](.swm/overview-of-the-profiling-components-main-functionalities.z2avf7tr.sw.md)</SwmLink>
+      - <SwmLink doc-title="Interaction of the profiling component with other application components">[Interaction of the profiling component with other application components](.swm/interaction-of-the-profiling-component-with-other-application-components.hsi0v0dl.sw.md)</SwmLink>
+    - **Global Modal**
+      - <SwmLink doc-title="The interaction between global modal and other components">[The interaction between global modal and other components](.swm/the-interaction-between-global-modal-and-other-components.85loanyc.sw.md)</SwmLink>
+      - <SwmLink doc-title="State and data management in the global modal component">[State and data management in the global modal component](.swm/state-and-data-management-in-the-global-modal-component.0fsnho4r.sw.md)</SwmLink>
+      - <SwmLink doc-title="Controlling appearance and responsiveness in global modal">[Controlling appearance and responsiveness in global modal](.swm/controlling-appearance-and-responsiveness-in-global-modal.7l54kzzn.sw.md)</SwmLink>
+  - **Main Flows**
+    - <SwmLink doc-title="Date and time normalization process">[Date and time normalization process](.swm/date-and-time-normalization-process.eomrul4e.sw.md)</SwmLink>
+    - <SwmLink doc-title="Page filters update and initialization">[Page filters update and initialization](.swm/page-filters-update-and-initialization.asyce5t4.sw.md)</SwmLink>
+    - <SwmLink doc-title="Dashboard management process">[Dashboard management process](.swm/dashboard-management-process.kqo5nlhh.sw.md)</SwmLink>
+    - <SwmLink doc-title="Widget rendering process">[Widget rendering process](.swm/widget-rendering-process.intj0hj4.sw.md)</SwmLink>
+    - <SwmLink doc-title="Generating performance event views">[Generating performance event views](.swm/generating-performance-event-views.o8xn09zo.sw.md)</SwmLink>
+    - <SwmLink doc-title="Data generation for releaseadoption component">[Data generation for releaseadoption component](.swm/data-generation-for-releaseadoption-component.5hat3rb1.sw.md)</SwmLink>
+    - <SwmLink doc-title="Widget rendering process">[Widget rendering process](.swm/widget-rendering-process.040deu26.sw.md)</SwmLink>
+- **User Interface**
+  - <SwmLink doc-title="What is forms">[What is forms](.swm/what-is-forms.6tmwfs1y.sw.md)</SwmLink>
+  - <SwmLink doc-title="Chart rendering process">[Chart rendering process](.swm/chart-rendering-process.9b955tda.sw.md)</SwmLink>
+  - **Components**
+    - <SwmLink doc-title="Chart rendering process">[Chart rendering process](.swm/chart-rendering-process.g8mlqzib.sw.md)</SwmLink>
+    - <SwmLink doc-title="Handling ignore actions">[Handling ignore actions](.swm/handling-ignore-actions.m9zbr401.sw.md)</SwmLink>
+- **Data Structures**
+  - <SwmLink doc-title="Understanding settings">[Understanding settings](.swm/understanding-settings.5kby7h6m.sw.md)</SwmLink>
+- **Utilities**
+  - <SwmLink doc-title="Getting started with discover">[Getting started with discover](.swm/getting-started-with-discover.1rpcm8l5.sw.md)</SwmLink>
+  - <SwmLink doc-title="What is metrics">[What is metrics](.swm/what-is-metrics.dves43jf.sw.md)</SwmLink>
+  - **Analytics**
+  - **Measurements**
+  - **Request Error**
+    - **Utils**
+      - <SwmLink doc-title="Profile import process in sentry">[Profile import process in sentry](.swm/profile-import-process-in-sentry.8iu69baf.sw.md)</SwmLink>
+      - <SwmLink doc-title="The process of loading teams">[The process of loading teams](.swm/the-process-of-loading-teams.7gc269a6.sw.md)</SwmLink>
+      - <SwmLink doc-title="Team data retrieval and management">[Team data retrieval and management](.swm/team-data-retrieval-and-management.r56qly6a.sw.md)</SwmLink>
+      - <SwmLink doc-title="Teams management in sentry">[Teams management in sentry](.swm/teams-management-in-sentry.2gs97ovd.sw.md)</SwmLink>
+  - **Profiling**
+    - <SwmLink doc-title="Understanding profiling">[Understanding profiling](.swm/understanding-profiling.acimrkso.sw.md)</SwmLink>
+    - <SwmLink doc-title="Understanding hooks">[Understanding hooks](.swm/understanding-hooks.7v3w2yds.sw.md)</SwmLink>
+  - **Performance**
+    - <SwmLink doc-title="Understanding performance vitals">[Understanding performance vitals](.swm/understanding-performance-vitals.67z6sh0r.sw.md)</SwmLink>
+    - <SwmLink doc-title="Basic concepts of performance quicktrace">[Basic concepts of performance quicktrace](.swm/basic-concepts-of-performance-quicktrace.vqfkjww1.sw.md)</SwmLink>
+    - <SwmLink doc-title="Introduction to performance suspectspans">[Introduction to performance suspectspans](.swm/introduction-to-performance-suspectspans.8c4xki9w.sw.md)</SwmLink>
+    - **Performance SegmentExplorer**
+      - <SwmLink doc-title="Overview of performance segmentexplorer">[Overview of performance segmentexplorer](.swm/overview-of-performance-segmentexplorer.iy0137sh.sw.md)</SwmLink>
+      - <SwmLink doc-title="The role of the genericdiscoverquery component in data retrieval">[The role of the genericdiscoverquery component in data retrieval](.swm/the-role-of-the-genericdiscoverquery-component-in-data-retrieval.aifapdnk.sw.md)</SwmLink>
+      - <SwmLink doc-title="Creation of the api request payload with getrequestfunction">[Creation of the api request payload with getrequestfunction](.swm/creation-of-the-api-request-payload-with-getrequestfunction.ors1xtff.sw.md)</SwmLink>
+- **Plugins**
+  - <SwmLink doc-title="Understanding plugins">[Understanding plugins](.swm/understanding-plugins.i3bfpujx.sw.md)</SwmLink>
+  - <SwmLink doc-title="Getting started with jira plugin">[Getting started with jira plugin](.swm/getting-started-with-jira-plugin.z5r317zm.sw.md)</SwmLink>
+- **Main Flows**
+  - <SwmLink doc-title="Widget viewer rendering process">[Widget viewer rendering process](.swm/widget-viewer-rendering-process.4plfvpe4.sw.md)</SwmLink>
+  - <SwmLink doc-title="Sdk updates broadcasting process">[Sdk updates broadcasting process](.swm/sdk-updates-broadcasting-process.r9j5kb4n.sw.md)</SwmLink>
+  - <SwmLink doc-title="Profile import process">[Profile import process](.swm/profile-import-process.f6rqljae.sw.md)</SwmLink>
+  - <SwmLink doc-title="Team selection process">[Team selection process](.swm/team-selection-process.6u1eqp2q.sw.md)</SwmLink>
+
+### src/sentry
+
+- **Sentry Core**
+  - **Sentry Core**
+    - **Sentry Plugins**
+      - <SwmLink doc-title="Github webhook event handling in sentry">[Github webhook event handling in sentry](.swm/github-webhook-event-handling-in-sentry.vatxzlt5.sw.md)</SwmLink>
+      - <SwmLink doc-title="Repository creation and webhook setup in github via sentry plugin">[Repository creation and webhook setup in github via sentry plugin](.swm/repository-creation-and-webhook-setup-in-github-via-sentry-plugin.hn1mb9v8.sw.md)</SwmLink>
+      - <SwmLink doc-title="Linking an issue in the gitlab plugin">[Linking an issue in the gitlab plugin](.swm/linking-an-issue-in-the-gitlab-plugin.bncj832n.sw.md)</SwmLink>
+    - **Sentry Metrics**
+      - <SwmLink doc-title="Metrics recording in sentry">[Metrics recording in sentry](.swm/metrics-recording-in-sentry.zm0z8v3s.sw.md)</SwmLink>
+    - **Sentry Search**
+      - <SwmLink doc-title="Event search query resolution process">[Event search query resolution process](.swm/event-search-query-resolution-process.yumb1zqa.sw.md)</SwmLink>
+    - **Main Flows**
+      - <SwmLink doc-title="Microsoft teams integration flow">[Microsoft teams integration flow](.swm/microsoft-teams-integration-flow.ya70ctj1.sw.md)</SwmLink>
+      - <SwmLink doc-title="Sending a card in the microsoft teams integration">[Sending a card in the microsoft teams integration](.swm/sending-a-card-in-the-microsoft-teams-integration.2s498jtk.sw.md)</SwmLink>
+      - <SwmLink doc-title="Filtering and resolving columns in sentry search events">[Filtering and resolving columns in sentry search events](.swm/filtering-and-resolving-columns-in-sentry-search-events.ogmxos93.sw.md)</SwmLink>
+      - <SwmLink doc-title="Handling slack group actions in sentry integration">[Handling slack group actions in sentry integration](.swm/handling-slack-group-actions-in-sentry-integration.xldcjdqi.sw.md)</SwmLink>
+  - **Sentry Plugins**
+    - <SwmLink doc-title="Understanding twilio">[Understanding twilio](.swm/understanding-twilio.3zr42509.sw.md)</SwmLink>
+    - <SwmLink doc-title="Asana 101">[Asana 101](.swm/asana-101.r0bqbaad.sw.md)</SwmLink>
+    - <SwmLink doc-title="Getting started with jira">[Getting started with jira](.swm/getting-started-with-jira.cc01hk8v.sw.md)</SwmLink>
+    - <SwmLink doc-title="Introduction to phabricator">[Introduction to phabricator](.swm/introduction-to-phabricator.84wqqgm9.sw.md)</SwmLink>
+    - <SwmLink doc-title="What is pushover">[What is pushover](.swm/what-is-pushover.0505ut1y.sw.md)</SwmLink>
+    - <SwmLink doc-title="What is bitbucket">[What is bitbucket](.swm/what-is-bitbucket.azdqkxio.sw.md)</SwmLink>
+    - <SwmLink doc-title="Segment 101">[Segment 101](.swm/segment-101.z4tskcgo.sw.md)</SwmLink>
+    - <SwmLink doc-title="Getting started with trello">[Getting started with trello](.swm/getting-started-with-trello.scv5tcph.sw.md)</SwmLink>
+    - <SwmLink doc-title="Introduction to pagerduty">[Introduction to pagerduty](.swm/introduction-to-pagerduty.gg8zdx57.sw.md)</SwmLink>
+    - <SwmLink doc-title="Getting started with heroku">[Getting started with heroku](.swm/getting-started-with-heroku.g50h2n6h.sw.md)</SwmLink>
+    - <SwmLink doc-title="Getting started with gitlab">[Getting started with gitlab](.swm/getting-started-with-gitlab.z10wyeir.sw.md)</SwmLink>
+    - <SwmLink doc-title="Sessionstack 101">[Sessionstack 101](.swm/sessionstack-101.p2c31pxp.sw.md)</SwmLink>
+    - <SwmLink doc-title="Getting started with opsgenie">[Getting started with opsgenie](.swm/getting-started-with-opsgenie.rae4pjxp.sw.md)</SwmLink>
+    - <SwmLink doc-title="Understanding splunk">[Understanding splunk](.swm/understanding-splunk.393oc562.sw.md)</SwmLink>
+    - <SwmLink doc-title="Github 101">[Github 101](.swm/github-101.3nha3tvg.sw.md)</SwmLink>
+    - **Freight**
+      - <SwmLink doc-title="Integration of the freight plugin with the main sentry repo">[Integration of the freight plugin with the main sentry repo](.swm/integration-of-the-freight-plugin-with-the-main-sentry-repo.u8fhnn27.sw.md)</SwmLink>
+      - <SwmLink doc-title="Exploring the communication between the freight plugin and the freight service">[Exploring the communication between the freight plugin and the freight service](.swm/exploring-the-communication-between-the-freight-plugin-and-the-freight-service.affzgsrs.sw.md)</SwmLink>
+      - <SwmLink doc-title="Analyzing the role of the freight plugin in sentrys main functionality">[Analyzing the role of the freight plugin in sentrys main functionality](.swm/analyzing-the-role-of-the-freight-plugin-in-sentrys-main-functionality.8crqmlb3.sw.md)</SwmLink>
+      - <SwmLink doc-title="Diving into the structure and key components of the freight plugin">[Diving into the structure and key components of the freight plugin](.swm/diving-into-the-structure-and-key-components-of-the-freight-plugin.xf9k6vp0.sw.md)</SwmLink>
+    - **Slack**
+      - <SwmLink doc-title="Understanding authorization between sentry and slack">[Understanding authorization between sentry and slack](.swm/understanding-authorization-between-sentry-and-slack.dag2gn9u.sw.md)</SwmLink>
+      - <SwmLink doc-title="Processing slack interactions in sentry an explanation">[Processing slack interactions in sentry an explanation](.swm/processing-slack-interactions-in-sentry-an-explanation.ru0xa4t6.sw.md)</SwmLink>
+      - <SwmLink doc-title="Testing the slack integration in sentry">[Testing the slack integration in sentry](.swm/testing-the-slack-integration-in-sentry.rv5vl3dt.sw.md)</SwmLink>
+  - **Sentry Integrations**
+    - <SwmLink doc-title="What is bitbucket integration">[What is bitbucket integration](.swm/what-is-bitbucket-integration.27q23o0g.sw.md)</SwmLink>
+    - <SwmLink doc-title="Introduction to jira server integration">[Introduction to jira server integration](.swm/introduction-to-jira-server-integration.mvtnjnjx.sw.md)</SwmLink>
+    - <SwmLink doc-title="Basic concepts of github integration">[Basic concepts of github integration](.swm/basic-concepts-of-github-integration.m8ru3ko6.sw.md)</SwmLink>
+    - <SwmLink doc-title="Custom scm integration 101">[Custom scm integration 101](.swm/custom-scm-integration-101.j2tg206v.sw.md)</SwmLink>
+    - <SwmLink doc-title="Basic concepts of bitbucket server integration">[Basic concepts of bitbucket server integration](.swm/basic-concepts-of-bitbucket-server-integration.lsnrbxqj.sw.md)</SwmLink>
+    - <SwmLink doc-title="Overview of ms teams integration">[Overview of ms teams integration](.swm/overview-of-ms-teams-integration.cdmmwi6j.sw.md)</SwmLink>
+    - <SwmLink doc-title="Cloudflare integration 101">[Cloudflare integration 101](.swm/cloudflare-integration-101.u6aq276q.sw.md)</SwmLink>
+    - <SwmLink doc-title="What is github enterprise integration">[What is github enterprise integration](.swm/what-is-github-enterprise-integration.fqp6dac0.sw.md)</SwmLink>
+    - <SwmLink doc-title="Understanding gitlab integration">[Understanding gitlab integration](.swm/understanding-gitlab-integration.3v9zfy93.sw.md)</SwmLink>
+    - <SwmLink doc-title="Getting started with vercel integration">[Getting started with vercel integration](.swm/getting-started-with-vercel-integration.cw17tdg0.sw.md)</SwmLink>
+    - **Jira Integration**
+      - <SwmLink doc-title="Jira integration 101">[Jira integration 101](.swm/jira-integration-101.s0xydvk8.sw.md)</SwmLink>
+      - <SwmLink doc-title="Issue status sync from sentry to jira">[Issue status sync from sentry to jira](.swm/issue-status-sync-from-sentry-to-jira.jw6xjny3.sw.md)</SwmLink>
+    - **PagerDuty Integration**
+      - <SwmLink doc-title="Introduction to pagerduty integration">[Introduction to pagerduty integration](.swm/introduction-to-pagerduty-integration.6kh5lczg.sw.md)</SwmLink>
+      - <SwmLink doc-title="Extending the sentry pagerduty integration to support additional pagerduty api features">[Extending the sentry pagerduty integration to support additional pagerduty api features](.swm/extending-the-sentry-pagerduty-integration-to-support-additional-pagerduty-api-features.f2ljiuiu.sw.md)</SwmLink>
+    - **Main Flows**
+      - <SwmLink doc-title="Handling slack actions in sentry integration">[Handling slack actions in sentry integration](.swm/handling-slack-actions-in-sentry-integration.l1hv0cxz.sw.md)</SwmLink>
+      - <SwmLink doc-title="Pagerduty trigger process">[Pagerduty trigger process](.swm/pagerduty-trigger-process.ijbo6xzq.sw.md)</SwmLink>
+      - <SwmLink doc-title="Microsoft teams integration flow in sentry">[Microsoft teams integration flow in sentry](.swm/microsoft-teams-integration-flow-in-sentry.mgji29vj.sw.md)</SwmLink>
+      - <SwmLink doc-title="Sending a card in microsoft teams integration">[Sending a card in microsoft teams integration](.swm/sending-a-card-in-microsoft-teams-integration.hjh0ycqt.sw.md)</SwmLink>
+  - **Sentry Models**
+  - **Sentry Migrations**
+    - <SwmLink doc-title="The importance of tracking database schema changes">[The importance of tracking database schema changes](.swm/the-importance-of-tracking-database-schema-changes.ziws7r0d.sw.md)</SwmLink>
+  - **Sentry Eventstore**
+  - **Sentry Auth**
+    - <SwmLink doc-title="Basic concepts of providers">[Basic concepts of providers](.swm/basic-concepts-of-providers.yl8f4yn0.sw.md)</SwmLink>
+  - **Sentry Security**
+  - **Sentry Metrics**
+  - **Eventstream Kafka**
+    - <SwmLink doc-title="Kafka subscription and offset management in sentry event stream">[Kafka subscription and offset management in sentry event stream](.swm/kafka-subscription-and-offset-management-in-sentry-event-stream.by63echt.sw.md)</SwmLink>
+    - <SwmLink doc-title="Running the post process forwarder in kafka backend">[Running the post process forwarder in kafka backend](.swm/running-the-post-process-forwarder-in-kafka-backend.au7pbuei.sw.md)</SwmLink>
+    - <SwmLink doc-title="Task dispatch in kafka postprocess worker">[Task dispatch in kafka postprocess worker](.swm/task-dispatch-in-kafka-postprocess-worker.qo0j2ei6.sw.md)</SwmLink>
+  - **Sentry Options**
+  - **Sentry Data Export**
+    - <SwmLink doc-title="Basic concepts of sentry data export">[Basic concepts of sentry data export](.swm/basic-concepts-of-sentry-data-export.miejca6v.sw.md)</SwmLink>
+    - <SwmLink doc-title="Introduction to data export endpoints">[Introduction to data export endpoints](.swm/introduction-to-data-export-endpoints.kpk19oqd.sw.md)</SwmLink>
+  - **Main Flows**
+    - <SwmLink doc-title="Handling slack actions in sentry integration">[Handling slack actions in sentry integration](.swm/handling-slack-actions-in-sentry-integration.87wg3l90.sw.md)</SwmLink>
+    - <SwmLink doc-title="Token exchange and message handling in microsoft teams integration">[Token exchange and message handling in microsoft teams integration](.swm/token-exchange-and-message-handling-in-microsoft-teams-integration.9hyt4hkv.sw.md)</SwmLink>
+    - <SwmLink doc-title="Sending a card in microsoft teams integration">[Sending a card in microsoft teams integration](.swm/sending-a-card-in-microsoft-teams-integration.obrwnx1z.sw.md)</SwmLink>
+    - <SwmLink doc-title="Pagerduty trigger process in sentry">[Pagerduty trigger process in sentry](.swm/pagerduty-trigger-process-in-sentry.t037qy4v.sw.md)</SwmLink>
+    - <SwmLink doc-title="User authentication and email confirmation process">[User authentication and email confirmation process](.swm/user-authentication-and-email-confirmation-process.o3iikbt8.sw.md)</SwmLink>
+- **Integrations**
+  - <SwmLink doc-title="Getting started with ms teams">[Getting started with ms teams](.swm/getting-started-with-ms-teams.jqn0rvqq.sw.md)</SwmLink>
+  - <SwmLink doc-title="Getting started with gitlab">[Getting started with gitlab](.swm/getting-started-with-gitlab.rrw1wsfp.sw.md)</SwmLink>
+  - **AWS Lambda**
+    - **AWS Lambda**
+      - <SwmLink doc-title="Functioning of sentrys error tracking in aws lambdas serverless context">[Functioning of sentrys error tracking in aws lambdas serverless context](.swm/functioning-of-sentrys-error-tracking-in-aws-lambdas-serverless-context.hhej7zkp.sw.md)</SwmLink>
+  - **Bitbucket**
+    - <SwmLink doc-title="Getting started with bitbucket">[Getting started with bitbucket](.swm/getting-started-with-bitbucket.7n76wwf6.sw.md)</SwmLink>
+    - <SwmLink doc-title="What is bitbucket">[What is bitbucket](.swm/what-is-bitbucket.dob79ing.sw.md)</SwmLink>
+    - <SwmLink doc-title="Comparing commits in bitbucket server integration">[Comparing commits in bitbucket server integration](.swm/comparing-commits-in-bitbucket-server-integration.t65sxe2b.sw.md)</SwmLink>
+    - **Bitbucket Server**
+      - <SwmLink doc-title="Understanding bitbucket server">[Understanding bitbucket server](.swm/understanding-bitbucket-server.jgun99rp.sw.md)</SwmLink>
+      - <SwmLink doc-title="Features of the bitbucket server integration">[Features of the bitbucket server integration](.swm/features-of-the-bitbucket-server-integration.wj800a3f.sw.md)</SwmLink>
+      - <SwmLink doc-title="Tracking commits and resolving issues with bitbucket server integration">[Tracking commits and resolving issues with bitbucket server integration](.swm/tracking-commits-and-resolving-issues-with-bitbucket-server-integration.69xzeyq4.sw.md)</SwmLink>
+  - **Jira**
+    - <SwmLink doc-title="Getting started with jira">[Getting started with jira](.swm/getting-started-with-jira.ri3p1bu2.sw.md)</SwmLink>
+    - <SwmLink doc-title="Introduction to jira server integration">[Introduction to jira server integration](.swm/introduction-to-jira-server-integration.5g5mq6x8.sw.md)</SwmLink>
+    - <SwmLink doc-title="Introduction to jira webhooks">[Introduction to jira webhooks](.swm/introduction-to-jira-webhooks.qu1czxgy.sw.md)</SwmLink>
+    - <SwmLink doc-title="Overview of jira views">[Overview of jira views](.swm/overview-of-jira-views.ky6fh7rr.sw.md)</SwmLink>
+  - **Slack**
+    - <SwmLink doc-title="Basic concepts of slack">[Basic concepts of slack](.swm/basic-concepts-of-slack.5uvrnpun.sw.md)</SwmLink>
+    - <SwmLink doc-title="What is slack unfurl">[What is slack unfurl](.swm/what-is-slack-unfurl.mypbb7wh.sw.md)</SwmLink>
+    - **Slack Utils**
+      - <SwmLink doc-title="Oauth tokenization process with slack">[Oauth tokenization process with slack](.swm/oauth-tokenization-process-with-slack.hz4xv8od.sw.md)</SwmLink>
+      - <SwmLink doc-title="Challenges and features of formatting sentry notifications for slack">[Challenges and features of formatting sentry notifications for slack](.swm/challenges-and-features-of-formatting-sentry-notifications-for-slack.xqa84m4v.sw.md)</SwmLink>
+      - <SwmLink doc-title="Working with decorators and feature flags in slack integration">[Working with decorators and feature flags in slack integration](.swm/working-with-decorators-and-feature-flags-in-slack-integration.ktcxf48l.sw.md)</SwmLink>
+    - **Slack Endpoints**
+      - <SwmLink doc-title="Understanding slack endpoints">[Understanding slack endpoints](.swm/understanding-slack-endpoints.85833cti.sw.md)</SwmLink>
+      - <SwmLink doc-title="Establishing communication with the slack api">[Establishing communication with the slack api](.swm/establishing-communication-with-the-slack-api.h77eobcd.sw.md)</SwmLink>
+    - **Main Flows**
+      - <SwmLink doc-title="Slack actions handling in sentry integration">[Slack actions handling in sentry integration](.swm/slack-actions-handling-in-sentry-integration.vyol3l49.sw.md)</SwmLink>
+  - **VSTS**
+    - <SwmLink doc-title="Understanding vsts">[Understanding vsts](.swm/understanding-vsts.0msdozy5.sw.md)</SwmLink>
+    - <SwmLink doc-title="What is vsts integration">[What is vsts integration](.swm/what-is-vsts-integration.6270nxsa.sw.md)</SwmLink>
+    - **VSTS Extension**
+      - <SwmLink doc-title="Understanding authorization and authentication in vsts extension">[Understanding authorization and authentication in vsts extension](.swm/understanding-authorization-and-authentication-in-vsts-extension.3gh54lpm.sw.md)</SwmLink>
+      - <SwmLink doc-title="Data synchronization and update management in vsts extension">[Data synchronization and update management in vsts extension](.swm/data-synchronization-and-update-management-in-vsts-extension.cd1mjkgo.sw.md)</SwmLink>
+      - <SwmLink doc-title="Handling differences between vsts and sentrys api structures in the vsts extension">[Handling differences between vsts and sentrys api structures in the vsts extension](.swm/handling-differences-between-vsts-and-sentrys-api-structures-in-the-vsts-extension.c9iom2fh.sw.md)</SwmLink>
+  - **GitHub**
+  - **Cloudflare**
+    - <SwmLink doc-title="Getting started with cloudflare">[Getting started with cloudflare](.swm/getting-started-with-cloudflare.wrt0exmr.sw.md)</SwmLink>
+    - <SwmLink doc-title="Overview of cloudflare">[Overview of cloudflare](.swm/overview-of-cloudflare.5wus6kmf.sw.md)</SwmLink>
+    - **Sentry**
+  - **PagerDuty**
+    - <SwmLink doc-title="Introduction to pagerduty">[Introduction to pagerduty](.swm/introduction-to-pagerduty.3r7gtc74.sw.md)</SwmLink>
+    - <SwmLink doc-title="Pagerduty integration 101">[Pagerduty integration 101](.swm/pagerduty-integration-101.wlvg2hmv.sw.md)</SwmLink>
+    - **Source Code**
+      - <SwmLink doc-title="Event handling in sentry">[Event handling in sentry](.swm/event-handling-in-sentry.gfnz7sbj.sw.md)</SwmLink>
+      - <SwmLink doc-title="Writing data to s3 filestore">[Writing data to s3 filestore](.swm/writing-data-to-s3-filestore.ygguxp3e.sw.md)</SwmLink>
+      - <SwmLink doc-title="Execution of top_events_timeseries function">[Execution of top_events_timeseries function](.swm/execution-of-top_events_timeseries-function.c9c0xfg6.sw.md)</SwmLink>
+      - <SwmLink doc-title="Invite acceptance process">[Invite acceptance process](.swm/invite-acceptance-process.k60i612q.sw.md)</SwmLink>
+      - <SwmLink doc-title="Release metadata handling in sentry">[Release metadata handling in sentry](.swm/release-metadata-handling-in-sentry.mwp3p210.sw.md)</SwmLink>
+      - <SwmLink doc-title="Release creation and update process in sentry">[Release creation and update process in sentry](.swm/release-creation-and-update-process-in-sentry.vhm8q9sm.sw.md)</SwmLink>
+      - <SwmLink doc-title="Measurement validation and querying in sentry">[Measurement validation and querying in sentry](.swm/measurement-validation-and-querying-in-sentry.eea8pgtm.sw.md)</SwmLink>
+    - **Sentry Project**
+      - <SwmLink doc-title="Understanding sentrys bug tracking mechanism an in depth perspective">[Understanding sentrys bug tracking mechanism an in depth perspective](.swm/understanding-sentrys-bug-tracking-mechanism-an-in-depth-perspective.w6pz2aql.sw.md)</SwmLink>
+      - <SwmLink doc-title="Unraveling application integrations in the sentry project">[Unraveling application integrations in the sentry project](.swm/unraveling-application-integrations-in-the-sentry-project.w362yf4u.sw.md)</SwmLink>
+    - **Integrations**
+      - <SwmLink doc-title="Handling error conditions in sentry integrations">[Handling error conditions in sentry integrations](.swm/handling-error-conditions-in-sentry-integrations.vdcbhap1.sw.md)</SwmLink>
+  - **Vercel**
+    - <SwmLink doc-title="Basic concepts of vercel">[Basic concepts of vercel](.swm/basic-concepts-of-vercel.7dsek2m8.sw.md)</SwmLink>
+    - <SwmLink doc-title="Getting started with vercel">[Getting started with vercel](.swm/getting-started-with-vercel.vwli3zx8.sw.md)</SwmLink>
+  - **Main Flows**
+    - <SwmLink doc-title="Handling slack group actions in sentry integration">[Handling slack group actions in sentry integration](.swm/handling-slack-group-actions-in-sentry-integration.3tyspgf6.sw.md)</SwmLink>
+    - <SwmLink doc-title="Pagerduty trigger flow in sentry">[Pagerduty trigger flow in sentry](.swm/pagerduty-trigger-flow-in-sentry.pdokrr3j.sw.md)</SwmLink>
+    - <SwmLink doc-title="Microsoft teams integration process">[Microsoft teams integration process](.swm/microsoft-teams-integration-process.qeoqeuj1.sw.md)</SwmLink>
+    - <SwmLink doc-title="Sending a card in microsoft teams integration">[Sending a card in microsoft teams integration](.swm/sending-a-card-in-microsoft-teams-integration.ul2x03wu.sw.md)</SwmLink>
+- **Analytics**
+- **Notifications**
+  - **Notifications**
+    - <SwmLink doc-title="Process of filtering and notifying recipients">[Process of filtering and notifying recipients](.swm/process-of-filtering-and-notifying-recipients.i7laa9v3.sw.md)</SwmLink>
+    - <SwmLink doc-title="Notification sending process">[Notification sending process](.swm/notification-sending-process.34kpwhz8.sw.md)</SwmLink>
+  - **Strategies**
+    - <SwmLink doc-title="Definition of strategies in the notifications component">[Definition of strategies in the notifications component](.swm/definition-of-strategies-in-the-notifications-component.78j0wknv.sw.md)</SwmLink>
+- **Main Flows**
+  - <SwmLink doc-title="Event saving process">[Event saving process](.swm/event-saving-process.los3efj6.sw.md)</SwmLink>
+  - <SwmLink doc-title="Execution process of top_events_timeseries function">[Execution process of top_events_timeseries function](.swm/execution-process-of-top_events_timeseries-function.l3ax5fpw.sw.md)</SwmLink>
+  - <SwmLink doc-title="Invite acceptance process">[Invite acceptance process](.swm/invite-acceptance-process.wwt8pwsl.sw.md)</SwmLink>
+  - <SwmLink doc-title="Exception handling and data processing in sentry">[Exception handling and data processing in sentry](.swm/exception-handling-and-data-processing-in-sentry.3adjb9ir.sw.md)</SwmLink>
+  - <SwmLink doc-title="Release metadata handling process">[Release metadata handling process](.swm/release-metadata-handling-process.oe3qf57h.sw.md)</SwmLink>
+  - <SwmLink doc-title="Release creation process">[Release creation process](.swm/release-creation-process.c5wu9qn4.sw.md)</SwmLink>
+  - <SwmLink doc-title="Validatesrcsentryapiendpointsorganization_events_has_measurementspy">[Validatesrcsentryapiendpointsorganization_events_has_measurementspy](.swm/validatesrcsentryapiendpointsorganization_events_has_measurementspy.lsttfmt7.sw.md)</SwmLink>
+  - <SwmLink doc-title="Unlinking a team from slack integration">[Unlinking a team from slack integration](.swm/unlinking-a-team-from-slack-integration.3pxqq2aq.sw.md)</SwmLink>
+  - <SwmLink doc-title="Aws lambda function enabling process">[Aws lambda function enabling process](.swm/aws-lambda-function-enabling-process.e3tl85wi.sw.md)</SwmLink>
+  - <SwmLink doc-title="Handling slack group actions in sentry">[Handling slack group actions in sentry](.swm/handling-slack-group-actions-in-sentry.ofakogur.sw.md)</SwmLink>
+  - <SwmLink doc-title="Unlinking a team from slack integration">[Unlinking a team from slack integration](.swm/unlinking-a-team-from-slack-integration.s4zldyjs.sw.md)</SwmLink>
+  - <SwmLink doc-title="Handling slack notifications">[Handling slack notifications](.swm/handling-slack-notifications.m400hvq5.sw.md)</SwmLink>
+  - <SwmLink doc-title="Commit comparison in vsts integration">[Commit comparison in vsts integration](.swm/commit-comparison-in-vsts-integration.kqp0hf5l.sw.md)</SwmLink>
+  - <SwmLink doc-title="Creating an issue in the vsts integration">[Creating an issue in the vsts integration](.swm/creating-an-issue-in-the-vsts-integration.6p2isdvi.sw.md)</SwmLink>
+  - <SwmLink doc-title="Comparing commits in bitbucket server integration">[Comparing commits in bitbucket server integration](.swm/comparing-commits-in-bitbucket-server-integration.8347mpya.sw.md)</SwmLink>
+  - <SwmLink doc-title="Unlinking an identity in microsoft teams integration">[Unlinking an identity in microsoft teams integration](.swm/unlinking-an-identity-in-microsoft-teams-integration.yphpyeyv.sw.md)</SwmLink>
+  - <SwmLink doc-title="Microsoft teams integration in sentry">[Microsoft teams integration in sentry](.swm/microsoft-teams-integration-in-sentry.0zbkwy5j.sw.md)</SwmLink>
+  - <SwmLink doc-title="Access token management in microsoft teams integration">[Access token management in microsoft teams integration](.swm/access-token-management-in-microsoft-teams-integration.2ydhts0j.sw.md)</SwmLink>
+  - <SwmLink doc-title="Vercel integration in sentry">[Vercel integration in sentry](.swm/vercel-integration-in-sentry.yc6q25k2.sw.md)</SwmLink>
+
+### Main Flows
+
+- <SwmLink doc-title="Repository update process in sentry github plugin">[Repository update process in sentry github plugin](.swm/repository-update-process-in-sentry-github-plugin.wgskyxeu.sw.md)</SwmLink>
+- <SwmLink doc-title="Repository creation process">[Repository creation process](.swm/repository-creation-process.zj7ghg9c.sw.md)</SwmLink>
+
+## Classes
+
+- <SwmLink doc-title="Exception class overview">[Exception class overview](.swm/exception-class-overview.zwk7d.sw.md)</SwmLink>
+- <SwmLink doc-title="Projectendpoint class overview">[Projectendpoint class overview](.swm/projectendpoint-class-overview.mv2fd.sw.md)</SwmLink>
+- <SwmLink doc-title="Asyncview">[Asyncview](.swm/asyncview.yi8o5.sw.md)</SwmLink>
+- <SwmLink doc-title="Overview of the model class">[Overview of the model class](.swm/overview-of-the-model-class.q4sqe.sw.md)</SwmLink>
+
+&nbsp;
+
+*This is an auto-generated document by Swimm AI 🌊 and has not yet been verified by a human*
+
+<SwmMeta version="3.0.0" repo-id="Z2l0aHViJTNBJTNBZGVtby1zZW50cnklM0ElM0Fzd2ltbWlv" repo-name="demo-sentry"><sup>Powered by [Swimm](/)</sup></SwmMeta>
